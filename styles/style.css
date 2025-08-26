@@ -44,12 +44,13 @@
         }
         
         .navbar-logo {
-            height: 50px;
-            margin-right: 10px;
-            width: 100%;
-            transition: all 0.3s ease;
-            
-        }
+    height: 50px;
+    width: auto;              /* let width adjust proportionally */
+    margin-right: 10px;
+    transition: all 0.3s ease;
+    max-width: 100%;          /* prevent it from overflowing */
+}
+
         
         .nav-link {
             font-weight: 500;
